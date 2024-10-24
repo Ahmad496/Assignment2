@@ -114,13 +114,15 @@ li a {
   border: 2px solid tomato;
 }
 .banner-container {
+  max-width: 1060px;
+  margin: 0 auto;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 2px solid red;
   margin-top: 32px;
 }
 .banner-text {
-  width: 30%;
+  width: 40%;
   border: 2px solid red;
 }
 .banner-title {
@@ -270,12 +272,20 @@ li a {
   .banner-title {
     font-size: 3rem;
   }
-  .habits-text {
+  .habits {
     /* max-width: 600px; */
     width: 100%;
+    padding: 0;
   }
   .habits-img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .card {
+    margin-right: 0;
+    padding: 30px;
+  }
+  /* .card-text {
+    max-width: 250px;
+  } */
 }
