@@ -439,6 +439,65 @@ select {
   font-size: 1rem;
   margin-top: 20px;
 }
+/* team section starts */
+.section-4 {
+  background-color: #000000;
+}
+.team-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  color: red;
+  border: 2px solid green;
+  text-align: center;
+}
+.team-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+  border: 2px solid tomato;
+}
+.team-card {
+  position: relative;
+  border: 2px solid red;
+}
+/* .team-card img {
+  width: 100%;
+  border-radius: 20px;
+} */
+.img-container {
+  height: 200px;
+}
+.img-container img {
+  object-fit: cover;
+  width: 100%;
+}
+.team-member-pic {
+  /* max-width: 1060px; */
+  /* margin: 0 auto; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.member-intro {
+  /* position: absolute; */
+  left: 10px;
+  bottom: 10px;
+}
+.member-name {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+.member-designation {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
 /* media quary */
 @media screen and (max-width: 576px) {
   .nav-link {
